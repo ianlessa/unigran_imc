@@ -1,9 +1,9 @@
 <?php
 
 if ($argc !== 3) {
-    echo "--- CALCULO DE IMC ---" . PHP_EOL;
+    echo "--- CÁLCULO DE IMC ---" . PHP_EOL;
     echo "Uso: " . PHP_EOL;
-    echo "php imc.php <peso em gramas>  <altura em centimetros>" . PHP_EOL . PHP_EOL;
+    echo "php imc.php <peso em gramas> <altura em centímetros>" . PHP_EOL . PHP_EOL;
     echo "Exemplo: " . PHP_EOL;
     echo "php imc.php 9560 180" . PHP_EOL;
     die();
